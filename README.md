@@ -5,9 +5,9 @@ Reddit - verify users in a subreddit's automod shadowban list are not deleted or
 
 Requirements:
 
-PRAW library.
-Must be a moderator, or have wiki read privileges.
-This script assumes that the automoderator shadowban rule has this header:
+1. PRAW library.
+2. Must be a moderator, or have wiki read privileges.
+3. This script assumes that the automoderator shadowban rule has this header:
      # User shadowbans
 
 Usage:
