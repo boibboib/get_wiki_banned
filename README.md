@@ -11,6 +11,7 @@ Requirements:
      # User shadowbans
 
 Usage:
+
 1. Edit USERNAME, PASSWORD and SUBREDDIT vars in get-wiki-banned.py.
 2. Run get-wiki-banned.py
 
