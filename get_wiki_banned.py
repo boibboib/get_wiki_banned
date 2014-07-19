@@ -13,16 +13,16 @@ r=praw.Reddit(user_agent=user_agent)
 
 Trying = True
 while Trying:
-	try:
-		r.login(USERNAME, PASSWORD)
-		print('Successfully logged in\n')
-		Trying = False
-	except praw.errors.InvalidUserPass:
-		print('Wrong Username or Password')
-		quit()
-	except Exception as e:
-		print("%s" % e)
-		time.sleep(5)
+    try:
+        r.login(USERNAME, PASSWORD)
+        print('Successfully logged in\n')
+        Trying = False
+    except praw.errors.InvalidUserPass:
+        print('Wrong Username or Password')
+        quit()
+    except Exception as e:
+        print("%s" % e)
+        time.sleep(5)
 
 
 x = r.get_subreddit(SUBREDDIT)
