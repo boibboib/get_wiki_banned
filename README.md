@@ -4,6 +4,7 @@ get_wiki_banned
 Reddit - verify users in a subreddit's automod shadowban list are not deleted or banned by admin in order to remove deleted accounts from the list.
 
 Requirements:
+
 PRAW library.
 Must be a moderator, or have wiki read privileges.
 This script assumes that the automoderator shadowban rule has this header:
